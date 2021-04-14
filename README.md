@@ -1,8 +1,8 @@
-# WhaleLandingPage_flower_petals_effect
-### [Naver web browser : Whale] flower Petals effect <br>
+# WhaleLandingPage
+### [Naver web browser : Whale] Landing page _ flower Petals effect <br>
 <br><br>
 
-![screenshot](https://user-images.githubusercontent.com/65863834/114502690-26b6a280-9c67-11eb-9dc0-b3e083493c2b.jpg)
+![screenshot](https://user-images.githubusercontent.com/65863834/114652640-45796f80-9d21-11eb-8f34-51e8a60ced94.jpg)
 
 
 <br>
@@ -10,6 +10,8 @@
 
 ### Summary
 
-트윈맥스를 이용해서 벚꽃잎이 흩날리는 애니메이션을 구현
+트윈맥스를 이용해서 벚꽃잎이 흩날리는 애니메이션을 구현 <br>
+weather API로 현재의 위치와 날씨 정보를 가져옴 <br>
+date를 이용해서 현재 시간을 가져옴 <br>
 
 <br><br>
