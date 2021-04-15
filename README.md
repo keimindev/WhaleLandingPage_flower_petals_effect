@@ -10,8 +10,9 @@
 
 ### Summary
 
-트윈맥스를 이용해서 벚꽃잎이 흩날리는 애니메이션을 구현 <br>
+TweeMax를 이용해서 벚꽃잎이 흩날리는 애니메이션을 구현 <br>
 weather API로 현재의 위치와 날씨 정보를 가져옴 <br>
 date를 이용해서 현재 시간을 가져옴 <br>
+ToDoList를 기능을 추가함 <br>
 
 <br><br>
