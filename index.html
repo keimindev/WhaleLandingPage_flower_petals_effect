@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whale_Lnadingpage</title>
     <link href="css/style.css" rel="stylesheet">
+    <!-- TweenMax CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!-- font -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <!-- fontawesome CDN-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 </head>
 <body>
 
@@ -18,7 +23,7 @@
       <div class="search-box">
         <div class="search">
           <div class="logo">N</div>
-          <input type="text" placeholder="검색어를 읿력하세요">
+          <input type="text" class="search-text" placeholder="검색어를 읿력하세요">
         </div>
       </div>
 
@@ -30,34 +35,44 @@
         <p>자주 방문한 사이트</p>
         <div class="boxes">
           <div class="box">
+            <a href="https://whale.naver.com/ko/">
             <div class="icon">
               <img src="img/whale.png">
             </div>
             <div class="site-name">웨일홈</div>
+          </a>
           </div>
           <div class="box">
+            <a href="https://blog.naver.com/whaleteam/">
             <div class="icon">
               <img src="img/blog.png">
             </div>
             <div class="site-name">웨일팀</div>
+          </a>
           </div>
           <div class="box">
+            <a href="https://forum.whale.naver.com/">
             <div class="icon">
               <img src="img/whale.png">
             </div>
             <div class="site-name">웨일연구소</div>
+          </a>
           </div>
           <div class="box">
+            <a href="https://www.naver.com">
             <div class="icon">
               <img src="img/naver.png">
             </div>
             <div class="site-name">NAVER</div>
+          </a>
           </div>
           <div class="box">
+            <a href="https://section.blog.naver.com/BlogHome.nhn">
             <div class="icon">
               <img src="img/blog.png">
             </div>
             <div class="site-name">블로그</div>
+          </a>
           </div>
         </div>
       </div>
@@ -66,6 +81,14 @@
         <div class="weather"></div>
         <div class="location"></div>
         <div class="todo">할 일 목록</div>
+        <div class="todobox">
+          <h4>할 일 목록(To do List)</h4>
+          <ul class="todolist"></ul>
+          <form name="list-input">
+          <input type="text" class="todotext" placeholder="할 일을 일력하세요..." >
+          </form>
+        </div>
+
         <div class="time"></div>
       </div>
     </div>
