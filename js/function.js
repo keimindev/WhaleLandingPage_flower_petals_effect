@@ -4,7 +4,7 @@ const locationDisplay = document.querySelector('.location');
 
 //weather api
 const api ={
-    key: "2dce14b5cb89113de2ab27e458030969",
+    key: "YOUR_KEY",
     base: "https://api.openweathermap.org/data/2.5/"
 }
 
